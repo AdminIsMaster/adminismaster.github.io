@@ -3,104 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdminIsMaster Plugin</title>
+    <title>AdminMaster Plugin</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
+            padding: 20px;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2em 0;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            color: #ffcc00;
+            color: #333;
         }
         h2 {
-            color: #ff6600;
+            color: #555;
         }
-        .feature {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 1em;
-            margin-bottom: 1em;
+        p {
+            line-height: 1.6;
         }
-        footer {
-            background: #333;
-            color: #fff;
-            padding: 1em 0;
+        .download-button {
+            display: block;
+            width: 200px;
+            margin: 20px 0;
+            padding: 10px;
             text-align: center;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-        a {
-            color: #ff6600;
+            background-color: #007bff;
+            color: white;
             text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        .button {
-            display: inline-block;
-            padding: 0.5em 1em;
-            margin: 1em 0;
-            color: #fff;
-            background: #ff6600;
-            border-radius: 4px;
-            text-decoration: none;
-        }
-        .button:hover {
-            background: #cc5200;
+        .download-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>AdminIsMaster Plugin</h1>
-        <p>Ultimate Admin Control for Your Minecraft Server</p>
-    </header>
     <div class="container">
-        <section class="feature">
-            <h2>Features</h2>
-            <ul>
-                <li><strong>Admin Chat Channel:</strong> Create a private chat channel for admins using <code>/adminchat</code>.</li>
-                <li><strong>Admin Teleportation:</strong> Teleport to players or teleport players to you with <code>/teleport &lt;player&gt;</code> and <code>/teleporthere &lt;player&gt;</code>.</li>
-                <li><strong>Player Tracking:</strong> Track players' coordinates and status using <code>/track &lt;player&gt;</code>.</li>
-                <li><strong>Instant Broadcast:</strong> Send server-wide messages with <code>/broadcast &lt;message&gt;</code>.</li>
-                <li><strong>Admin Mode:</strong> Toggle admin mode for invisibility and invulnerability using <code>/adminmode</code>.</li>
-                <li><strong>Automatic OP:</strong> Listed players get OP automatically upon joining the server.</li>
-            </ul>
-        </section>
-        <section class="feature">
-            <h2>Installation</h2>
-            <ol>
-                <li>Download the AdminIsMaster plugin JAR file.</li>
-                <li>Place the JAR file in the <code>plugins</code> folder of your Minecraft server.</li>
-                <li>Restart or reload your server.</li>
-                <li>Configure the plugin as needed by editing the <code>plugin.yml</code> file and setting permissions.</li>
-            </ol>
-            <p>Click the button below to visit the AdminIsMaster GitHub repository where you can download the plugin:</p>
-            <a href="https://github.com/AdminIsMaster/AdminIsMasterPlugin" class="button">Go to Download</a>
-        </section>
-        <section class="feature">
-            <h2>Usage</h2>
-            <p>Once installed, the plugin allows you to manage server admins with ease. Use the provided commands to control admin chat, teleportation, tracking, broadcasting, and admin mode. Players listed in the configuration will receive OP automatically upon joining the server.</p>
-        </section>
+        <h1>AdminMaster Plugin</h1>
+        <p>Welcome to the AdminMaster plugin! This plugin is designed to help server admins manage their Minecraft servers efficiently with a suite of powerful tools and commands.</p>
+        
+        <h2>Features</h2>
+        <ul>
+            <li>Admin Chat Channel: A private chat channel for admins.</li>
+            <li>Admin Teleportation: Teleport to any player or teleport players to you.</li>
+            <li>Player Tracking: Get live updates on a player's coordinates and status.</li>
+            <li>Instant Broadcast: Send server-wide messages in a special format.</li>
+            <li>Admin Mode: Toggle a mode where admins become invisible, invulnerable, and can fly.</li>
+            <li>Essential tools for large and small servers.</li>
+        </ul>
+        
+        <h2>Installation</h2>
+        <p>To install the AdminMaster plugin, simply download the .jar file and place it in your server's plugins folder.</p>
+        <a href="https://github.com/AdminIsMaster/AdminIsMasterPlugin" class="download-button">Go to Download</a>
     </div>
-    <footer>
-        <p>&copy; 2024 AdminIsMaster. All rights reserved. <a href="https://github.com/AdminIsMaster/AdminIsMasterPlugin">GitHub Repository</a></p>
-    </footer>
 </body>
 </html>
